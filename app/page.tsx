@@ -311,7 +311,7 @@ export default function Home() {
       name: "Dr. Stephen Akintayo",
       role: "Convener",
       bio: "Business Growth Strategist & Founder of Stephen Akintayo Foundation",
-      image: "/images/dr-stephen.png",
+      image: "/images/dr-stephen.jpg",
     },
   ]
 
@@ -667,7 +667,7 @@ export default function Home() {
                     <>
                       <p>
                         This is a premium 2-day experience packed with training, recordings, and bonuses worth over
-                        $2,000 / £2,000. Tickets are heavily discounted. The exact pricing will be shown based on your
+                        $2,000 / £1,795.90. Tickets are heavily discounted. The exact pricing will be shown based on your
                         location (US or UK) after submitting the registration form.
                       </p>
                       <p className="mt-2">Your ticket includes:</p>
@@ -805,32 +805,36 @@ export default function Home() {
           </AnimatedSection>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <AnimatedCard delay={0.3}>
+            <AnimatedCard delay={0.4}>
               <TicketCard
                 location="UK"
                 dates="9th August, 2025"
-                price="£2,000"
+                price="£1,795.90"
                 features={[
-                  "Full-day in-person experience",
-                  "Networking opportunities",
-                  "Conference materials",
-                  "Lunch and refreshments",
-                  "Certificate of participation",
+                  "Access to All Keynote Sessions",
+                  "Digital Workbook & Session Notes",
+                  "Networking Access (General)",
+                  "Business Growth Toolkit (Templates, growth hacks, and checklists to scale faster)",
+                  "Private Conference WhatsApp Group",
+                  "Live Q&A with Select Speakers",
+                  "A post-conference growth plan to keep your fire burning.",
                 ]}
               />
             </AnimatedCard>
 
-            <AnimatedCard delay={0.4}>
+            <AnimatedCard delay={0.7}>
               <TicketCard
                 location="US"
                 dates="23rd-24th August, 2025"
                 price="$2,000"
                 features={[
-                  "2-day in-person experience",
-                  "Networking opportunities",
-                  "Conference materials",
-                  "Lunch and refreshments",
-                  "Certificate of participation",
+                 "Access to All Keynote Sessions",
+                  "Digital Workbook & Session Notes",
+                  "Networking Access (General)",
+                  "Business Growth Toolkit (Templates, growth hacks, and checklists to scale faster)",
+                  "Private Conference WhatsApp Group",
+                  "Live Q&A with Select Speakers",
+                  "A post-conference growth plan to keep your fire burning.",
                 ]}
               />
             </AnimatedCard>
@@ -839,7 +843,7 @@ export default function Home() {
           <AnimatedSection animation="fadeIn" delay={0.5} className="mt-12 text-center">
             <p className="text-lg mb-6">
               This is a premium 2-day experience packed with training, recordings, and bonuses worth over $2,000 /
-              £2,000.
+              £1,795.90.
               <br />
               Tickets are heavily discounted. Please proceed if you're ready to invest in your growth.
               <br />

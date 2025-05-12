@@ -22,7 +22,7 @@ export function HostSection() {
           <AnimatedSection animation="slideIn" delay={0.2}>
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-xl">
               <Image
-                src="/images/dr-stephen.png"
+                src="/images/dr-stephen.jpg"
                 alt="Dr. Stephen Akintayo"
                 fill
                 className="object-cover"
@@ -82,6 +82,73 @@ export function HostSection() {
             </div>
           </AnimatedSection>
         </div>
+
+        {/* Dr. Cosmas Maduka - Speaker */}
+       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+          <AnimatedSection animation="slideIn" delay={0.2}>
+            <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-xl">
+              <Image
+                src="/images/Maduka.jpg"
+                alt="Dr. Stephen Akintayo"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection animation="fadeIn" delay={0.4}>
+            <div className="space-y-6">
+              <div className="inline-block bg-red-600 text-white text-sm font-medium px-3 py-1 rounded-full mb-2">
+                Convener
+              </div>
+              <h3 className="text-3xl font-bold">Dr. Stephen Akintayo</h3>
+              <p className="text-xl text-zinc-300">Business Growth Strategist & Founder, Stephen Akintayo Foundation</p>
+
+              <div className="space-y-4 text-zinc-300">
+                <p>
+                Dr. Cosmas Maduka is a highly respected business leader known for his entrepreneurial excellence and business wisdom. His journey from humble 
+                beginnings to building a business empire has inspired countless entrepreneurs with practical strategies for sustainable growth.
+                </p>
+                <p>
+                As the CEO of Coscharis Group, Dr. Maduka has successfully led the company to become one of Nigeria's leading conglomerates, 
+                with interests in various sectors including automotive, real estate, and financial services.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-4 pt-2">
+                <div className="flex items-center text-zinc-300">
+                  <Award className="w-5 h-5 mr-2 text-red-500" />
+                  <span>Multiple Business Awards</span>
+                </div>
+                <div className="flex items-center text-zinc-300">
+                  <BookOpen className="w-5 h-5 mr-2 text-red-500" />
+                  <span>Bestselling Author</span>
+                </div>
+                <div className="flex items-center text-zinc-300">
+                  <Globe className="w-5 h-5 mr-2 text-red-500" />
+                  <span>Global Business Mentor</span>
+                </div>
+              </div>
+
+              <div className="flex gap-4 pt-4 mt-4">
+                <Button asChild variant="outline" size="icon" className="rounded-full">
+                  <Link href="https://twitter.com/stephenakintayo" target="_blank" rel="noopener noreferrer">
+                    <Twitter className="h-4 w-4" />
+                    <span className="sr-only">Twitter</span>
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="icon" className="rounded-full">
+                  <Link href="https://linkedin.com/in/stephenakintayo" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="h-4 w-4" />
+                    <span className="sr-only">LinkedIn</span>
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+        
 
         <div className="text-center mt-16">
           <Button asChild className="relative z-10 bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-lg">
